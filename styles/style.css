@@ -78,14 +78,14 @@
 }
 
 .cover-title {
-  padding: 162px 50px 0;
-  row-gap: 5px;
+  padding: 165px 50px 0;
+  row-gap: 20px;
   display: flex;
   flex-direction: column;
   position: relative;
   z-index: 2;
   font-size: 100px;
-  line-height: 1.2;
+  line-height: 115%;
   letter-spacing: 0.3em;
   text-transform: uppercase;
   color: #fff;
@@ -98,10 +98,12 @@
 
 .align-center {
   align-self: center;
+  line-height: 100%;
 }
 
 .align-right {
   align-self: flex-end;
+  line-height: 100%;
 }
 
 .letter-spacing-extended {
@@ -113,7 +115,7 @@
 }
 
 .cover__description {
-  margin-top: 123px;
+  margin-top: 135px;
   margin-left: 80px;
   padding-bottom: 50px;
   display: flex;
